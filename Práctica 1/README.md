@@ -32,9 +32,11 @@
 
 ## Tarea 6 - Llevar a cabo una propuesta propia de pop art
 Imagen sin movimiento (pocos píxeles rojos, a la derecha):
+
 ![Captura de pantalla (36)](https://github.com/user-attachments/assets/d27f955b-6518-49ce-aec7-7b72facc894b)
 
 Imagen con movimiento:
+
 ![Captura de pantalla (37)](https://github.com/user-attachments/assets/5d363034-f31c-4c7e-b65a-83bddc204255)
 
 
