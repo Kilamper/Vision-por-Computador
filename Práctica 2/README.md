@@ -41,7 +41,7 @@ Como demostrador hemos decidido mostrar cuatro versiones alternas del vídeo cap
         <img src="https://github.com/user-attachments/assets/fb265c72-5436-44cb-a365-d5e890847b74" alt="Imagen invertida">
     </div>
     <div>
-        <h4>Píxel más claro y oscuro</h4>
+        <h4>Más claro y más oscuro</h4>
         <img src="https://github.com/user-attachments/assets/fb265c72-5436-44cb-a365-d5e890847b74" alt="Imagen invertida">
     </div>
     <div>
