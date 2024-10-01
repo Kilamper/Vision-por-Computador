@@ -11,25 +11,25 @@ En esta tarea realizamos la cuenta de píxeles blancos por filas basandonos en e
 
 Cuando ya se hayan sumado los valores de los píxeles, realizaremos el cálculo del porcentaje de píxeles blancos por fila. Esto se llevará a cabo diviendo la suma de los valores de los píxeles de cada fila entre 255 por el número de filas.
 
-![Respuesta de Canny por filas](image.png)
+![Respuesta de Canny por Filas](https://github.com/user-attachments/assets/498b64e2-2c01-4801-90d3-85f29ed9bdbf)
 
 Una vez calculados los porcentajes, en primer lugar, procedemos a calcular el número de píxeles blancos por columnas y filas. Con estos datos, ya podemos hallar el número máximo y mínimo de píxeles tanto por columnas como por filas, el índice de estos y el número de columnas/filas con una cantidad mayor o igual al 95% del máximo.
 
-![Máximos y Mínimos Píxeles Blancos Canny](image-1.png)
+![Máximos y Mínimos de Píxeles Blancos Canny](https://github.com/user-attachments/assets/75b56376-977c-4aac-b39e-0d71717270e1)
 
 ## Tarea 2 - Aplicar umbralizado a la imagen resultante de Sobel
 
 En primer lugar, realizamos el umbralizado de la imagen de Sobel para obtener una imagen lo más similar posible a la obtenida anteriormente con Canny.
 
-![Umbralizado Imagen Sobel](image-2.png)
+![Umbralizado Imagen Sobel](https://github.com/user-attachments/assets/18c541ec-66a3-40f8-9e8f-d3bcb427b45a)
 
 Cuando ya tengamos la imagen umbralizada de Sobel, al igual que con la imagen resultante de Canny, hallaremos los máximos y mínimos, así como los índices de estos.
 
-![Máximos y Mínimos Píxeles Blancos Canny](image-3.png)
+![Máximos y Mínimos de Píxeles Blancos Sobel](https://github.com/user-attachments/assets/540658f2-4092-47ba-8d82-dd568a7ae403)
 
 A continuación, dibujaremos líneas blancas sobre las columnas y/o filas con una cantidad de píxeles blancos superior al 95% del máximo. Esto se logra recorriendo con un for los vectores "max_col_95_sobel" y "max_row_95_sobel", que contienen valores booleanos (True/False), donde el valor True indica que esa línea supera el umbral señalado.
 
-![Mayor/Igual 95% Máximo](image-4.png)
+![Mayor/Igual 95% Máximo Sobel](https://github.com/user-attachments/assets/4ae30050-dbf4-49e9-8939-c72fe8bff753)
 
 ## Tarea 3 - Proponer un demostrador que capture las imágenes de la cámara.
 
