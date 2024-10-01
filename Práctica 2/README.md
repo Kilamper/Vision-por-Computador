@@ -33,6 +33,14 @@ A continuación, dibujaremos líneas blancas sobre las columnas y/o filas con un
 
 ## Tarea 3 - Proponer un demostrador que capture las imágenes de la cámara.
 
-
+<div align="left">
+  <h4>Imagen invertida</h4>
+  
+  ![image](https://github.com/user-attachments/assets/fb265c72-5436-44cb-a365-d5e890847b74)
+  
+  <h4>Aberración cromática</h4>
+  
+  ![image](https://github.com/user-attachments/assets/bf2382be-409b-4566-9eb1-97330fcffc76)
+</div>
 
 ## Tarea 4 - Plantear una reinterpretación de la parte de procesamiento de la imagen tomando como punto de partida alguna de dichas instalaciones.
