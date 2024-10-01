@@ -33,7 +33,7 @@ A continuación, dibujaremos líneas blancas sobre las columnas y/o filas con un
 
 ## Tarea 3 - Proponer un demostrador que capture las imágenes de la cámara.
 
-Como demostrador hemos decidido mostrar cuatro versiones alternas del vídeo capturado por la cámara. Estas cuatro versiones son: una inversión de los colores de la imagen (1), la detección del píxel más claro y más oscuro de la imagen capturada (2), un efecto de aberración cromática sobre la captura (3) y una detección de rostros que muestra toda la pantalla en negro, excepto un círculo alrededor de las caras detectadas (4). Cada una de estas opciones se activa precionando la tecla correspondientes, que se indican entre paréntesis anteriormente.
+Como demostrador hemos decidido mostrar cuatro versiones alternas del vídeo capturado por la cámara. Estas cuatro versiones son: una inversión de los colores de la imagen (1); la detección de la sección 8x8 más clara y más oscura de la imagen capturada (2), destacando con un círculo blanco la más oscura y con un círculo negro la más clara; un efecto de aberración cromática sobre la captura (3), este efecto se ha conseguido desplazando los canales cromáticos horizontalmente o verticalmente; y una detección de rostros que muestra toda la pantalla en negro, excepto un círculo alrededor de las caras detectadas (4). Cada una de estas opciones se activa presionando la tecla correspondiente, que se indican entre paréntesis anteriormente.
 
 <div style="display: flex; gap: 10px;">
     <div>
@@ -42,7 +42,7 @@ Como demostrador hemos decidido mostrar cuatro versiones alternas del vídeo cap
     </div>
     <div>
         <h4>Más claro y más oscuro</h4>
-        <img src="https://github.com/user-attachments/assets/fb265c72-5436-44cb-a365-d5e890847b74" alt="Imagen invertida">
+        <img src="https://github.com/user-attachments/assets/547ec002-adc0-4661-bdc3-c453c7373267" alt="Más claro y más oscuro">
     </div>
     <div>
         <h4>Aberración cromática</h4>
@@ -50,8 +50,14 @@ Como demostrador hemos decidido mostrar cuatro versiones alternas del vídeo cap
     </div>
     <div>
         <h4>Detección de rostros</h4>
-        <img src="https://github.com/user-attachments/assets/fb265c72-5436-44cb-a365-d5e890847b74" alt="Imagen invertida">
+        <img src="https://github.com/user-attachments/assets/f11f053e-b30d-4e0b-84e7-cffddab1ee77" alt="Detección de rostros">
     </div>
 </div>
 
 ## Tarea 4 - Plantear una reinterpretación de la parte de procesamiento de la imagen tomando como punto de partida alguna de dichas instalaciones.
+Para esta tarea hemos decidido llevar a cabo una idea que parodia en cierto modo a "My little piece of privacy" [Fuente 1]. De esta forma, planteamos una "cortina" negra que va siguiendo el movimiento. Esta "cortina" está formada por líneas verticales negras que se colocan en las columnas de la imagen que detecten movimiento. Para ello, se ha tomado en cuenta la diferencia entre el frame actual con uno anterior y se busca las columnas de la imagen en la que dicha diferencia sea muy alta.
+
+<img src="https://github.com/user-attachments/assets/6660e992-0678-452f-a3ed-4010d6ca8156" alt="Cortina negra que sigue el movimiento">
+
+## Fuentes
+Fuente 1: https://www.niklasroy.com/project/88/my-little-piece-of-privacy 
