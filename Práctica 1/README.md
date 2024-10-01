@@ -1,5 +1,10 @@
 # Práctica 1
 
+### Autores
+
+- Pablo Segura López
+- Kilian Armas Pérez
+
 ## Tarea 1 - Crear una imagen con la textura del tablero de ajedrez
 
 ![Captura de pantalla (32)](https://github.com/user-attachments/assets/93a0036d-9bcb-4833-b8e9-5300e9ba3373)
