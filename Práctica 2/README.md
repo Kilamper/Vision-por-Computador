@@ -33,14 +33,25 @@ A continuación, dibujaremos líneas blancas sobre las columnas y/o filas con un
 
 ## Tarea 3 - Proponer un demostrador que capture las imágenes de la cámara.
 
-<div align="left">
-  <h4>Imagen invertida</h4>
-  
-  ![image](https://github.com/user-attachments/assets/fb265c72-5436-44cb-a365-d5e890847b74)
-  
-  <h4>Aberración cromática</h4>
-  
-  ![image](https://github.com/user-attachments/assets/bf2382be-409b-4566-9eb1-97330fcffc76)
+Como demostrador hemos decidido mostrar cuatro versiones alternas del vídeo capturado por la cámara. Estas cuatro versiones son: una inversión de los colores de la imagen (1), la detección del píxel más claro y más oscuro de la imagen capturada (2), un efecto de aberración cromática sobre la captura (3) y una detección de rostros que muestra toda la pantalla en negro, excepto un círculo alrededor de las caras detectadas (4). Cada una de estas opciones se activa precionando la tecla correspondientes, que se indican entre paréntesis anteriormente.
+
+<div style="display: flex; gap: 10px;">
+    <div>
+        <h4>Imagen invertida</h4>
+        <img src="https://github.com/user-attachments/assets/fb265c72-5436-44cb-a365-d5e890847b74" alt="Imagen invertida">
+    </div>
+    <div>
+        <h4>Píxel más claro y oscuro</h4>
+        <img src="https://github.com/user-attachments/assets/fb265c72-5436-44cb-a365-d5e890847b74" alt="Imagen invertida">
+    </div>
+    <div>
+        <h4>Aberración cromática</h4>
+        <img src="https://github.com/user-attachments/assets/bf2382be-409b-4566-9eb1-97330fcffc76" alt="Aberración cromática">
+    </div>
+    <div>
+        <h4>Detección de rostros</h4>
+        <img src="https://github.com/user-attachments/assets/fb265c72-5436-44cb-a365-d5e890847b74" alt="Imagen invertida">
+    </div>
 </div>
 
 ## Tarea 4 - Plantear una reinterpretación de la parte de procesamiento de la imagen tomando como punto de partida alguna de dichas instalaciones.
