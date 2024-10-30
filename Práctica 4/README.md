@@ -72,6 +72,8 @@ display = False
 
 El vídeo que se obtiene como resultado de la ejecución de esta práctica se puede visualizar desde el siguiente enlace:
 
+https://youtu.be/G_JjlN1ik9I
+
 ### Fuentes
 
 \[1]: https://universe.roboflow.com/roboflow-universe-projects/license-plate-recognition-rxg4e/dataset/8
