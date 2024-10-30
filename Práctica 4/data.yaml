@@ -1,12 +1,12 @@
 # TGCRBNW
 
 # train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
-train: C:/Users/pablo/Desktop/Universidad/Cuarto/Visión por computador/P4/archive/train/
-val: C:/Users/pablo/Desktop/Universidad/Cuarto/Visión por computador/P4/archive/val/  
-test: C:/Users/pablo/Desktop/Universidad/Cuarto/Visión por computador/P4/archive/test/  
+train: C:/Users/-/Desktop/CLASE/4ºULPGC/Visión por Computador/Prácticas/data/train
+val: C:/Users/-/Desktop/CLASE/4ºULPGC/Visión por Computador/Prácticas/data/val
+test: C:/Users/-/Desktop/CLASE/4ºULPGC/Visión por Computador/Prácticas/data/test
 
 # number of classes
 nc: 1
 
 # class names
-names: [ 'license' ]
+names: ["license"]
