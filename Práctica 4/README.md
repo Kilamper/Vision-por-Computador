@@ -73,6 +73,7 @@ display = False
 El vídeo que se obtiene como resultado de la ejecución de esta práctica se puede visualizar desde el siguiente enlace:
 
 [![Vídeo detección de matrículas](https://img.youtube.com/vi/G_JjlN1ik9I/0.jpg)](https://youtu.be/G_JjlN1ik9I)
+<p>https://youtu.be/G_JjlN1ik9I</p>
 
 ### Fuentes
 
