@@ -52,13 +52,13 @@ En esta práctica se ha desarrollado un sistema de **detección y reconocimiento
 
 El modelo entrenado de detección de matrícula funciona considerablemente bien, pero los resultados no son tan óptimos en el reconocimiento del texto de las matrículas. A pesar de esto, en algunos casos puntuales, devuelve patrones muy similares al texto original o, incluso, llegando en algunas ocasiones a reconocer por completo la matrícula, como ocurre en la siguiente imagen.
 
-![Captura detección matrícula vídeo](image.png)
+![Captura detección matrícula vídeo](image-video.png)
 
 Algunos de los valores registrados para este vehículo son los siguientes:
 
-![Captura detección matrícula csv](image-1.png)
+![Captura detección matrícula csv](image-csv.png)
 
-Como se puede ver en la imagen anterior, el modelo comienza detectando la parte numérica de la matrícula (1770) y luego reconoce las tres letras finales, completando así el texto de la matrícula (1770JYG).
+Como se puede ver en la imagen anterior, el modelo comienza detectando un patrón similar al texto original de la matrícula y luego reconoce la matrícula correctamente, incluyendo el espacio entre los caracteres numéricos y las letras finales (1965 KBP).
 
 Además, se ha implementado una variable booleana que indica el comportamiento del código en su ejecución:
 
@@ -72,8 +72,9 @@ display = False
 
 El vídeo que se obtiene como resultado de la ejecución de esta práctica se puede visualizar desde el siguiente enlace:
 
-[![Vídeo detección de matrículas](https://img.youtube.com/vi/G_JjlN1ik9I/0.jpg)](https://youtu.be/G_JjlN1ik9I)
-<p><a href="https://youtu.be/G_JjlN1ik9Im" target="_blank">https://youtu.be/G_JjlN1ik9I</a></p>
+[![Vídeo detección de matrículas](https://img.youtube.com/vi/H7vOkikLQaw/0.jpg)](https://youtu.be/H7vOkikLQaw)
+
+<p><a href="https://youtu.be/H7vOkikLQaw" target="_blank">https://youtu.be/H7vOkikLQaw</a></p>
 
 ### Fuentes
 
