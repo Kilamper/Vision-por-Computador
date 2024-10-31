@@ -22,6 +22,7 @@ En esta práctica se ha desarrollado un sistema de **detección y reconocimiento
 
    - EasyOCR permite realizar el reconocimiento óptico de caracteres en las matrículas detectadas. Esta herramienta OCR es eficaz en la extracción de texto en distintas condiciones de iluminación y ruido.
    - Una vez detectadas las matrículas, EasyOCR procesa esas áreas específicas y extrae los caracteres (números y letras) presentes en ellas. El texto extraído se muestra en la imagen/vídeo junto a la etiqueta "Matrícula" por encima de la detección.
+   - Cabe destacar que, para mejorar los resultados dados por EasyOCR, intentamos utilizar Canny y otras técnicas para preprocesar la imagen, pero no tuvieron buenos resultados, por lo que lo único que se conseguía era ralentizar la ejecución de la práctica y complicar el código sin motivo. La única técnica que mejoró los resultados dados en la práctica (y es la única técnica que se utiliza como preprocesado en la versión final de la práctica), es el reescalado de la imagen de entrada a EasyOCR, duplicando su tamaño.
    - Además, en la elección del texto de la matrícula entre los distintos fotogramas, se ha tenido en cuenta la longitud de la cadena y confianza de la detección.
      ```
      if len(predicted_license) >= 3:
