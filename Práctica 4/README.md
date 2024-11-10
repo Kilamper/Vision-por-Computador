@@ -51,7 +51,13 @@ En esta práctica se ha desarrollado un sistema de **detección y reconocimiento
 
 ### Observaciones
 
-El modelo entrenado de detección de matrícula funciona considerablemente bien, pero los resultados no son tan óptimos en el reconocimiento del texto de las matrículas. A pesar de esto, en algunos casos puntuales, devuelve patrones muy similares al texto original o, incluso, llegando en algunas ocasiones a reconocer por completo la matrícula, como ocurre en la siguiente imagen.
+Al entrenar el modelo, se obtuvieron las siguientes gráficas de evolución durante el entrenamiento:
+
+![results](https://github.com/user-attachments/assets/3208a020-dcd6-4e11-a45c-ae994d62d4e8)
+
+El modelo fue entrenado durante 100 épocas y, como se puede observar, seguía mejorando aún al llegar cerca del final del entrenamiento, aumentando la precisión, el "recall" y disminuyendo el error de localización del bounding box y de la detección de la clase. Esto quiere decir que se podría haber seguido entrenando el modelo durante más épocas, hasta que la mejoría se detuviera. A pesar de esto, debido a que al probar el modelo funcionaba razonablemente bien, no se llevo a cabo otro entrenamiento.
+
+Como se dijo con anterioridad, el modelo entrenado de detección de matrícula funciona considerablemente bien, pero los resultados no son tan óptimos en el reconocimiento del texto de las matrículas. A pesar de esto, en algunos casos puntuales, devuelve patrones muy similares al texto original o, incluso, llegando en algunas ocasiones a reconocer por completo la matrícula, como ocurre en la siguiente imagen.
 
 ![Captura detección matrícula vídeo](image-video.png)
 
