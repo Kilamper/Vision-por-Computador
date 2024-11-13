@@ -17,9 +17,10 @@ El archivo `VC_P5_G1.ipynb` contiene un código que utiliza un detector de caras
 
 4. **Superposición de la armadura de Iron Man**: Se superpone la visualización de la armadura de Iron Man sobre la cara del usuario, ajustando su posición y tamaño. Para conseguir esto se crea una máscara de la "Green Screen" existente en los gifs de Iron Man para poder mezclar ambas imágenes. Para la realización de la práctica se han usado dos gifs de Iron Man obtenidos a partir de un vídeo en Youtube[1]: uno de los gifs corresponde al casco abriéndose y el otro al casco cerrándose:
 
-![ironman-helmet-opening](https://github.com/user-attachments/assets/87e95ff3-d5f6-4f23-8857-901f2ac24f7e)
-
-![ironman-helmet-closing](https://github.com/user-attachments/assets/c744c68f-7e29-4dcc-ad56-1238aa4dd275)
+<div>
+  <img src="https://github.com/user-attachments/assets/87e95ff3-d5f6-4f23-8857-901f2ac24f7e" width=40% height=40% alt="Opening mask" title="Opening mask">
+  <img src="https://github.com/user-attachments/assets/c744c68f-7e29-4dcc-ad56-1238aa4dd275" width=40% height=40% alt="Closing mask" title="Closing mask">
+</div>
 
 5. **Detección de apertura de la boca**: Se detecta si el usuario abre la boca y, en función de ello, se alterna entre la visualización de la armadura de Iron Man abierta o cerrada. Para conseguir detectar que la boca está abierta, se han tomado 3 de los puntos encontrados en los labios por el detector de características faciales usado previamente. Esos 3 puntos corresponden a los 2 puntos centrales internos de los labios y uno de los puntos próximos al superior. Cuando la boca se abre, se detecta que la distancia entre los puntos centrales (labio inferior y superior) es sustancialmente mayor a la distancia entre los dos puntos próximos del labio superior.
 
@@ -29,8 +30,7 @@ El archivo `VC_P5_G1.ipynb` contiene un código que utiliza un detector de caras
 
 A continuación, se muestra un ejemplo del funcionamiento en formato GIF:
 
-![resultados](https://github.com/user-attachments/assets/5e8ef5f5-3c82-410e-adad-fe3636e7d1bd)
-
+<img src="https://github.com/user-attachments/assets/5e8ef5f5-3c82-410e-adad-fe3636e7d1bd" width=60% height=60% alt="Iron Man filter">
 
 ## Enlace al vídeo original
 
