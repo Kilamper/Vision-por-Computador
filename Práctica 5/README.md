@@ -21,6 +21,14 @@ El archivo `VC_P5_G1.ipynb` contiene un código que utiliza un detector de caras
 
 6. **Visualización del resultado**: Se muestra el resultado final en una ventana, combinando la imagen de la webcam con la visualización de la armadura de Iron Man.
 
-## GIF de funcionamiento del código
+## Ejemplo de funcionamiento
+
+A continuación, se muestra un ejemplo del funcionamiento en formato GIF:
 
 ![Funcionamiento del código](images/ironman.gif)
+
+## Enlace al vídeo original
+
+El siguiente enlace redirige a la fuente original de la animación de Iron Man utilizada:
+
+https://www.youtube.com/watch?v=G9i9di9a5QA&ab_channel=GreenScreenMagic
